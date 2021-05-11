@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Decagon Android 007</string>
+    <string name="pokemon_name">Pokemon Name</string>
+    <string name="first_implementation">First Implementation</string>
+    <string name="second_implementation">Second Implementation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_limit">enter limit</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="pokemon_name2">Pokemon Name</string>
+    <string name="weight">Weight</string>
+    <string name="type">Type</string>
+    <string name="stats">Stats</string>
+    <string name="height">Height</string>
+    <string name="abilities">Abilities</string>
 </resources>

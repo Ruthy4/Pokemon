@@ -9,8 +9,8 @@ import retrofit2.http.Url
 
 interface PokemonListInterface {
 
-    @get: GET("pokemon?limit=100&offset=0")
-    val getPoke: Observable<PokemonX>
+    @GET("pokemon?limit=100&offset=0")
+    fun getPoke(): Observable<PokemonX>
 
     @GET("pokemon")
     fun getLimit(

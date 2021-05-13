@@ -13,4 +13,13 @@
     <string name="stats">Stats</string>
     <string name="height">Height</string>
     <string name="abilities">Abilities</string>
+    <string name="title_activity_second_implementation">SecondImplementationActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="upload">Upload</string>
+    <string name="search">Search</string>
+    <string name="enter_query_number">Enter Query Number</string>
 </resources>

@@ -10,6 +10,9 @@ object RetrofitClient {
     private var firstInstance: Retrofit? = null
     val instance: Retrofit
 
+        // create a retrofit instance to call the end point and retrieve information
+        // set the default converter
+        // build the retrofit object
         get() {
             if (firstInstance == null)
                 firstInstance = Retrofit.Builder()
@@ -17,7 +20,7 @@ object RetrofitClient {
                     .baseUrl(BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                    .build()
+                    .build() // get a Retrofit object that can be reuseable
 
             return firstInstance!!
         }
